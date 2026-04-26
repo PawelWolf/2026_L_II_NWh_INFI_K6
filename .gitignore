@@ -1,0 +1,19 @@
+# Środowisko wirtualne
+.venv/
+venv/
+ENV/
+__pycache__/
+hello_world/__pycache__/
+test/__pycache__/
+*.py[cod]
+*$py.class
+
+# Testy i raporty
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pliki systemowe i IDE
+.vscode/
+.idea/
+.DS_Store
